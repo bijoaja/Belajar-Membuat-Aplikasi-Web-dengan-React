@@ -39,10 +39,6 @@ class NoteInput extends React.Component {
     onSubmitEventHandler(event) {
         event.preventDefault();
         this.props.addNote(this.state);
-        const input = document.getElementById("inputTitle")
-        input.value = ""
-        const inputBody = document.getElementById("inputBody")
-        inputBody.value = ""
       }
 
       
